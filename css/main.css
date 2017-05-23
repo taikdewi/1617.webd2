@@ -7,22 +7,154 @@ html, body {
   padding: 0;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
-  background-size: cover;
 
-  color: rgba(232,234,246 ,1);
+
+
+
+.services .container1 {
+  position: relative;
+  width: 33%;
+  float: left;
+  padding: 40px;
+	
 }
 
-.intro {
-  width: 90vw;
+.services .image {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  width: auto;
+  height: 240px;
+  border-left-width:thick;
+  padding-bottom: 50px;
+	
+	
 
-  padding: 1rem;
-  margin-top: 1rem;
-
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
 }
+
+.tekst {
+	border-top: 2px solid red;
+	/* border-bottom: 2px solid red;*/
+	padding-bottom: 50px;
+	
+}
+
+.titelserv {
+	border: none;
+	color:red;
+    width:auto;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	
+}
+
+.tekstp {
+	text-align: left;
+	font-size: 16px;
+	
+}
+
+.koptitel {
+	
+	
+}
+
+.voeter {
+  position: absolute;
+	height: 50px;
+  background-color: #E3E3E3;
+  border-bottom: 5px solid red;
+	width: 100%;
+	
+}
+
+.footertext {
+	 font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  
+  
+	
+}
+
+
+
+
+.portpics {
+	position: relative;
+	width: 55%;
+	float: left;
+	padding: 15px;
+}
+
+.icoontjes{
+	display: block;
+  height: 350px;
+	margin-bottom: 100px;
+	margin: auto;
+	width: 500px;
+	box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+   }
+
+
+.icoontjes:hover {
+    transform: scale(1.1);
+    transition: .5s ease;
+	opacity: 0.3;
+	
+}
+
+.owoverlay{
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
+	
+  
+}
+
+.portpics:hover .owoverlay	{
+	opacity: 1;
+}
+
+.owtekst{
+	font-family: "roboto", sans-serif;
+	color: red;
+  font-size: 20px;
+  position: absolute;
+  left: 50%;
+	align-items: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+
+
+
+.voeter1 {
+  position: absolute;
+	height: 50px;
+  background-color: #E3E3E3;
+  border-bottom: 5px solid red;
+	width: 100%;
+	margin-top: 50px;
+	
+}
+
+.kolom {
+	position: relative;
+  width: 50%;
+  float: left;
+	
+}
+
+/* BELANGRIJK!!! ZORGENN DAT FOTO DONKERDER IS ALS HOVER https://www.w3schools.com/howto/howto_css_image_overlay.asp  */
+
+

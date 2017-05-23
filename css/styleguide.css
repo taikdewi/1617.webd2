@@ -1,0 +1,57 @@
+/* CSS Document */
+
+
+
+
+/* team presentation
+----------------------- */
+
+.team_presentation .container {
+  position: relative;
+  width: 33%;
+	float: left;
+}
+
+.team_presentation .image {
+  display: block;
+  width: 100%;
+  height: auto;
+	margin-bottom: 200px;
+	margin-top: 50px;
+	
+	
+
+}
+
+.team_presentation  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: red;
+	margin-bottom: 200px;
+	margin-top: 50px;
+}
+
+.team_presentation .container:hover .overlay {
+  opacity: 1;
+		
+
+
+}
+
+.team_presentation .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+	text-align: center;
+}

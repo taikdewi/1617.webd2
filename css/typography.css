@@ -1,15 +1,65 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 200;
   font-style: normal;
-  line-height: 1.42;
+  line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 1000;
   font-style: normal;
   line-height: 1.42;
+   color: red;
+    border-bottom:2.5px solid red;
+	width: 2em;
+	
+	}
+
+
+
+nav li a {
+	font-size: 18px;
+	color: red;
+		
+}
+
+.p1{
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size:18px;
+	
+}
+
+.p2{
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	font-size:18px;
+}
+
+.p3{
+	font-family: 'Roboto', sans-serif;
+	font-weight:400; 
+	font-style: italic;
+	font-size:18px;
+}
+
+.kleuren {
+	height: 145px;
+	width: auto;
+}
+
+.icons {
+	height: 104px;
+	width: auto;
+}
+
+.text {
+	font-weight:700;
+}
+
+.text2 {
+	font-weight:300;
 }
