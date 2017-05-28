@@ -12,8 +12,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 1000;
   font-style: normal;
   line-height: 1.42;
-   color: red;
-    border-bottom:2.5px solid red;
+   color: rgb(194, 0, 11);
+    border-bottom:2.5px solid rgb(194, 0, 11);
 	width: 2em;
 	
 	}
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 nav li a {
 	font-size: 18px;
-	color: red;
+	color: rgb(194, 0, 11);
 		
 }
 

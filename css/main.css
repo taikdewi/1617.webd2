@@ -33,7 +33,7 @@ html, body {
 }
 
 .tekst {
-	border-top: 2px solid red;
+	border-top: 2px solid rgb(194, 0, 11);
 	/* border-bottom: 2px solid red;*/
 	padding-bottom: 50px;
 	
@@ -41,14 +41,13 @@ html, body {
 
 .titelserv {
 	border: none;
-	color:red;
+	color:rgb(194, 0, 11);
     width:auto;
 	text-align: center;
 	margin: auto;
 	margin-top: 20px;
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
-	
 }
 
 .tekstp {
@@ -58,15 +57,27 @@ html, body {
 }
 
 .koptitel {
-	
-	
+	display:inline;
+	text-align: left;
+}
+
+.koptitels {
+	display:inline;
+	text-align: left;
+	margin-left: 45px;
+}
+
+.koptitelO {
+	display:inline;
+	text-align: left;
+	margin-left: 30px;
 }
 
 .voeter {
   position: absolute;
 	height: 50px;
   background-color: #E3E3E3;
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid rgb(194, 0, 11);
 	width: 100%;
 	
 }
@@ -74,39 +85,70 @@ html, body {
 .footertext {
 	 font-family: 'Roboto', sans-serif;
   font-size: 12px;
-  
-  
+}
+
+
+
+.voeter1 {
+  position: absolute;
+	height: 50px;
+  background-color: #E3E3E3;
+  border-bottom: 5px solid rgb(194, 0, 11);
+	width: 100%;
+	margin-top: 50px;
 	
 }
 
+.footerart {
+	display: block;
+	position: absolute;
+	bottom: 8px;
+	right: 165px;
+	height: 30px;
+	width: 50px;
+	margin-top: 5px;
+}
 
-
-
-.portpics {
+.kolom {
 	position: relative;
-	width: 55%;
-	float: left;
+  width: 50%;
+  float: left;
+	
+}
+
+.map {
+	margin-top: 15px;
+}
+
+
+
+
+
+/*
+
+.workz .portpics {
+	position: relative;
 	padding: 15px;
 }
 
-.icoontjes{
+.workz .icoontjes{
 	display: block;
   height: 350px;
 	margin-bottom: 100px;
 	margin: auto;
 	width: 500px;
-	box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+	
    }
 
 
-.icoontjes:hover {
-    transform: scale(1.1);
+.workz .icoontjes:hover {
+        transform: scale(1.05);
     transition: .5s ease;
-	opacity: 0.3;
+    opacity: 0.2;
 	
 }
 
-.owoverlay{
+.workz .owoverlay{
   position: absolute;
   bottom: 50%;
   left: 0;
@@ -119,14 +161,14 @@ html, body {
   
 }
 
-.portpics:hover .owoverlay	{
+.workz .portpics:hover .owoverlay	{
 	opacity: 1;
 }
 
-.owtekst{
+.workz .owtekst{
 	font-family: "roboto", sans-serif;
-	color: red;
-  font-size: 20px;
+	color: black;
+  font-size: 15px;
   position: absolute;
   left: 50%;
 	align-items: center;
@@ -135,26 +177,130 @@ html, body {
 	text-align: center;
 }
 
+*/
+
+.workz {
+	margin-bottom: 50px;
+}
 
 
 
-.voeter1 {
+.workz .portpics {
+  position: relative;
+	padding: 15px;
+}
+
+.workz .icoontjes {
+  display: block;
+  height: 350px;
+	margin-bottom: 100px;
+	margin: auto;
+	width: 500px;
+	
+	
+
+}
+
+.workz  .owoverlay {
   position: absolute;
-	height: 50px;
-  background-color: #E3E3E3;
-  border-bottom: 5px solid red;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.workz .portpics:hover .owoverlay {
+  opacity: 1;
+	
+
+
+}
+
+.workz .owtekst {
+  color: rgb(194, 0, 11);
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+	text-align: center;
+	width: 80%;
+}
+
+
+
+
+ span {
+    color: rgb(194, 0, 11);
+  }
+
+
+
+.mainbanner {
+	margin-top: 20px;
 	width: 100%;
-	margin-top: 50px;
-	
+	height: 300px;
+	margin-bottom: 20px;
 }
 
-.kolom {
+.ondervlak {
+	float: left;
+}
+
+.container-tekst {
+	float: left;
 	position: relative;
-  width: 50%;
-  float: left;
-	
+	width: 65%;
+	text-align: left;
+	padding-right: 30px;
 }
 
-/* BELANGRIJK!!! ZORGENN DAT FOTO DONKERDER IS ALS HOVER https://www.w3schools.com/howto/howto_css_image_overlay.asp  */
+.container-quote {
+	display:block;
+	background: rgb(194, 0, 11);
+	float: left;
+	position: relative;
+	width: 35%; 
+	padding: 20px;
+	text-align: center;
+}
+
+.quote {
+	color: white;
+	font-size: 50px;
+	line-height: 1em;
+}
+
+
+
+
+.res {
+    height:45px;
+
+}
+
+.res img {
+    width: 30px;
+	height: 30px;
+    margin-left:5px;
+	margin-right: 5px;
+    display:inline;
+	vertical-align: middle;
+}
+
+.res span {
+    display:inline;
+}
+
+
+
+
+
 
 

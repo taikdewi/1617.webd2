@@ -1,0 +1,111 @@
+/* CSS Document */
+
+
+.workz .portpics {
+	position: relative;
+	padding: 15px;
+}
+
+.workz .icoontjes{
+	display: block;
+  height: 350px;
+	margin-bottom: 100px;
+	margin: auto;
+	width: 500px;
+	
+   }
+
+
+.workz .icoontjes:hover {
+        transform: scale(1.05);
+    transition: .5s ease;
+    opacity: 0.2;
+	
+}
+
+.workz .owoverlay{
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
+	
+  
+}
+
+.workz .portpics:hover .owoverlay	{
+	opacity: 1;
+}
+
+.workz .owtekst{
+	font-family: "roboto", sans-serif;
+	color: black;
+  font-size: 15px;
+  position: absolute;
+  left: 50%;
+	align-items: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+/*
+
+
+
+.portpics {
+	position: relative;
+	padding: 15px;
+}
+
+.icoontjes{
+	display: block;
+  height: 350px;
+	margin-bottom: 100px;
+	margin: auto;
+	width: 500px;
+	
+   }
+
+
+.icoontjes:hover {
+        transform: scale(1.05);
+    transition: .5s ease;
+    opacity: 0.2;
+	
+}
+
+.owoverlay{
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .4s ease;
+	
+  
+}
+
+.portpics:hover .owoverlay	{
+	opacity: 1;
+}
+
+.owtekst{
+	font-family: "roboto", sans-serif;
+	color: black;
+  font-size: 15px;
+  position: absolute;
+  left: 50%;
+	align-items: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+	
+
+*/
